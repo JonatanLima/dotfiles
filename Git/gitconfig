@@ -1,0 +1,26 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Jonatan Lima
+	email = jotanlima@gmail.com
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[core]
+	autocrlf = input
+	pager = cat
+  excludesfile = ~/.gitignore
+	editor = /usr/local/bin/nvim
+[alias]
+  s = !git status -s
+  c = !git add --all && git commit -m
+  l = !git log --pretty=format:'%C(blue)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+  ps = "!git push o $(git rev-parse --abbrev-ref HEAD)"
+  pl = "!git pull o $(git rev-parse --abbrev-ref HEAD)"
+  llog = log --graph --name-status --pretty=format:\"%C(red)%h %C(reset)(%cd) %C(green)%an %Creset%s %C(yellow)%d%Creset\" --date=relative
+	amend = !git add --all && git commit --amend --no-edit
+	count = !git shortlog -s --grep
+  prod = !git add --all && git reset HEAD '*.spec.ts' && git reset HEAD '*.test.ts' && git commit -m
+[push]
+  followTags = true
