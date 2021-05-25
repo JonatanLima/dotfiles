@@ -56,6 +56,10 @@ set incsearch
 set ignorecase
 set smartcase
 set autoread
+set binary noeol
+set noendofline
+set nofixendofline
+
 let no_buffers_menu=1
 autocmd BufWritePre * %s/\s\+$//e
 highlight clear SignColumn
