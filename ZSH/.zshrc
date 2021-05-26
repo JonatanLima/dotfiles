@@ -213,3 +213,6 @@ alias rb="ruby"
 
 # Sublime Text
 export PATH=$PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin
+
+# Node
+alias n="node"
