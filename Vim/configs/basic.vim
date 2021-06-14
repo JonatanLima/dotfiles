@@ -66,6 +66,7 @@ autocmd BufWritePre * %s/\s\+$//e
 highlight clear SignColumn
 
 " colors jellybeans
+" colors iceberg
 colors zenbrum
 " colors atom-dark-256
 " colors ghdark
