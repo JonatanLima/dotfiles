@@ -59,6 +59,7 @@ set autoread
 set binary noeol
 set noendofline
 set nofixendofline
+set t_Co=256
 
 let no_buffers_menu=1
 autocmd BufWritePre * %s/\s\+$//e
