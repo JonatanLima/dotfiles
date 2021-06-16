@@ -8,7 +8,6 @@ Plug 'mhinz/vim-grepper'
 Plug 'haya14busa/is.vim'
 Plug 'tpope/vim-commentary'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
-Plug 'sheerun/vim-polyglot'
 
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
