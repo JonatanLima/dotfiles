@@ -15,7 +15,8 @@ set lcs+=space:·
 set autoindent
 let mapleader=','
 set colorcolumn=80
-highlight ColorColumn ctermbg=235 guibg=#2c2d27
+" highlight ColorColumn ctermbg=235 guibg=#2c2d27
+highlight ColorColumn guibg=red
 set confirm
 set cursorline
 highlight Comment ctermfg=green
