@@ -68,7 +68,8 @@ highlight clear SignColumn
 
 " colors jellybeans
 " colors iceberg
-colors zenbrum
+" colors zenbrum
+colors monokai
 " colors atom-dark-256
 " colors ghdark
 " colors darkness
