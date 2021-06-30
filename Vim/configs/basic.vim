@@ -66,14 +66,7 @@ let no_buffers_menu=1
 autocmd BufWritePre * %s/\s\+$//e
 highlight clear SignColumn
 
-" colors jellybeans
-" colors iceberg
-colors zenbrum
-" colors atom-dark-256
-" colors ghdark
-" colors darkness
-" colors desert
-
 set background=dark
+colors zenbrum
 
 let g:python3_host_prog = '/usr/local/bin/python3'
