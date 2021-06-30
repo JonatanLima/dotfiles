@@ -68,10 +68,11 @@ highlight clear SignColumn
 
 " colors jellybeans
 " colors iceberg
-colors zenbrum
+" colors zenbrum
 " colors atom-dark-256
 " colors ghdark
 " colors darkness
+colors desert
 
 set background=dark
 
