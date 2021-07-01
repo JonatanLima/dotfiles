@@ -11,12 +11,8 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-# ZSH_THEME="robbyrussell"
-# ZSH_THEME="theunraveler"
-# ZSH_THEME="af-magic"
-# ZSH_THEME="bureau"
-ZSH_THEME="nanotech" # The best
-# ZSH_THEME="node"
+# ZSH_THEME="nanotech" # The best
+ZSH_THEME="lambda"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -216,3 +212,7 @@ export PATH=$PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin
 
 # Node
 alias n="node"
+alias nd="nodemon"
+
+# Elixir
+alias ix="elixir"
