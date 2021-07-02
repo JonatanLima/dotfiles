@@ -67,7 +67,6 @@ autocmd BufWritePre * %s/\s\+$//e
 highlight clear SignColumn
 
 set background=dark
-" colors zenbrum
-colors desert
+colors zenbrum
 
 let g:python3_host_prog = '/usr/local/bin/python3'
